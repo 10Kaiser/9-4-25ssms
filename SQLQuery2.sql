@@ -26,3 +26,6 @@ select * from students where country='Kal' or city='ist'
 select * from students where country='Kal' and city='Van'
 select * from students where not country='Pak'
 select * from students
+/*
+update students set stdName = 'Ser' where stdID =11;
+select * from students*/
